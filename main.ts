@@ -23,6 +23,13 @@ input.onButtonPressed(Button.A, function () {
     basic.pause(2000)
     // Gelb
     basic.setLedColor(0xffff00)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
 let feuchtigkeit = 0
 // LED auf gelb setzen, um Bereitschaft zu signalisieren
